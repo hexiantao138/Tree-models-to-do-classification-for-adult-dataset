@@ -8,7 +8,7 @@
 * 将分类型特征值进行one-hot编码。 
 * 将年薪分类<=50k标注为0，>50k标注为1。
 * 数据预处理之后的表格如下:
-![](/adult%20data%20after%20preprocess%20image.png)
+![](/data_preprocess.png)
 ## 数据分析与可视化 
 * 画热图来观测各特征间的相关性
 ![](/heatmap_of_variable_correlation.png)

@@ -1,16 +1,16 @@
-# Tree models to do classification for adult dataset
-* Dataset can be downloaded here: http://archive.ics.uci.edu/ml/datasets/Adult
-* Raw data:
+# 基于机器学习模型的成人年薪预测
+* 数据集与具体描述可以再次下载: http://archive.ics.uci.edu/ml/datasets/Adult
+* 原始数据表格如下:
 ![](https://github.com/hexiantao138/William-He-Project_Portfolio/blob/master/adult%20data%20image.png)
-## Data Preprocess: 
-* Delete null values 
-* remove duplicate values 
-* One-hot-encoder to attributes 
-* change Salary <=50k to label 0 and >50k to lable 1
-* After data preprocess:
+## 数据预处理: 
+* 删除Null值。 
+* 去除重复行。
+* 将分类型特征值进行one-hot编码。 
+* 将年薪分类<=50k标注为0，>50k标注为1。
+* 数据预处理之后的表格如下:
 ![](https://github.com/hexiantao138/William-He-Project_Portfolio/blob/master/adult%20data%20after%20preprocess%20image.png)
-## Data Analysis 
+## 数据分析与可视化 
 * 
-## Construct Tree models 
-* Use Decision tree and Random forest models to train and predict the label for adult dataset
-* The training set and test set both have labels
+## 构建机器学习模型 
+* 使用scikit-learn包中的决策树与随机森林模型。
+* 对测试集进行上述步骤预处理，根据学习的模型进行年薪预测。

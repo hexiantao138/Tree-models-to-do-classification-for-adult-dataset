@@ -10,8 +10,10 @@
 * 数据预处理之后的表格如下:
 ![](https://github.com/hexiantao138/William-He-Project_Portfolio/blob/master/adult%20data%20after%20preprocess%20image.png)
 ## 数据分析与可视化 
-* 画一个热图来观测各特征间的相关性
+* 画热图来观测各特征间的相关性
 ![](/heatmap_of_variable_correlation.png)
+* 画箱形图检验各特征异常值以及各特征对预测结果的影响
+![](/Boxplots%20for%20predictors%20versus%20target%20variable.png)
 ## 构建机器学习模型 
 * 使用scikit-learn包中的决策树与随机森林模型。
 * 对测试集进行上述步骤预处理，根据学习的模型进行年薪预测。

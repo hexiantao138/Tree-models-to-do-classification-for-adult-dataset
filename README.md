@@ -1,5 +1,5 @@
 # 基于机器学习模型的成人年薪预测
-* 数据集与具体描述可以再次下载: http://archive.ics.uci.edu/ml/datasets/Adult
+* 数据集与具体描述可以在此下载: http://archive.ics.uci.edu/ml/datasets/Adult
 * 原始数据表格如下:
 ![](https://github.com/hexiantao138/William-He-Project_Portfolio/blob/master/adult%20data%20image.png)
 ## 数据预处理: 

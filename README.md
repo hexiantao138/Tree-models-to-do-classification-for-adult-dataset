@@ -15,7 +15,7 @@
 * 画箱形图检验各特征异常值以及各特征对预测结果的影响
 ![](/Boxplots%20for%20predictors%20versus%20target%20variable.png)
 * 用pairplot来展现变量间的线性关系，并用散点图呈现
-![]()
+![](/pairplot%20of%20adult.png)
 ## 构建机器学习模型 
 * 使用scikit-learn包中的决策树与随机森林模型。
 * 对测试集进行上述步骤预处理，根据学习的模型进行年薪预测。
